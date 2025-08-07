@@ -51,6 +51,7 @@ CloudIR-Bench contains incident reports with structured annotations including:
 
 ## 🚀 Quick Start
 
+
 ### Prerequisites
 
 - **Python**: 3.10 or higher
@@ -60,21 +61,21 @@ CloudIR-Bench contains incident reports with structured annotations including:
 
 ### Installation
 
-1. **Clone the repository**
+**Clone the repository**
 
 ```bash
 git clone https://github.com/hoangtnm/CloudIR-Bench.git
 cd CloudIR-Bench
 ```
 
-2. **Create and activate a conda environment**
+**Create and activate a conda environment**
 
 ```bash
 conda create -yn CloudIR-Bench python=3.10
 conda activate CloudIR-Bench
 ```
 
-3. **Install dependencies**
+**Install dependencies**
 
 ```bash
 # Install uv for fast package management
@@ -83,6 +84,13 @@ python3 -m pip install uv
 # Install all required packages
 uv pip install -r requirements.txt
 ```
+
+### 📁 Repository Structure
+
+- `src/` — Crawlers, annotation tools, evaluation scripts, model clients, prompts
+- `data-samples/` — Sample incident reports and annotations
+- `images/` — Figures for dataset and framework overview
+- `requirements.txt` — Python dependencies
 
 ## Usage
 
@@ -184,7 +192,7 @@ For questions, issues, or research collaboration opportunities, please:
 - **Email the authors**: [s4075740@student.rmit.edu.au](mailto:s4075740@student.rmit.edu.au)
 - **Research collaborations**: We welcome academic partnerships and industry collaborations
 
-### Citation
+## Citation
 
 If you use CloudIR-Bench in your research, please cite our work:
 
