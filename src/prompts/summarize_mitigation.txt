@@ -1,0 +1,7 @@
+I want you to act as an expert software engineer. Your task is to summarize the following mitigation steps taken to resolve an incident report.
+- Your summary must clearly state what the mitigation steps of the incident were, and ignore timestamps in the summary.
+- Style: Brief, high-level.
+- Detail: States the mitigation steps clearly and concisely without specifying broader impact or technical depth.
+- Avoid the common phrase "The incident was resolved/mitigated by..." or similar phrases.
+Incident Mitigation Steps: {description}
+Concise Summary:

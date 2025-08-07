@@ -1,0 +1,26 @@
+--extra-index-url https://flashinfer.ai/whl/cu124/torch2.6
+numpy<2.0
+pandas
+tabulate
+openpyxl
+torch~=2.6.0
+torchmetrics
+evaluate
+rouge_score
+bert_score
+# nubia-score
+transformers
+sentence-transformers
+huggingface_hub[hf_transfer]
+vllm~=0.8.0
+ollama
+# flashinfer-python==0.2.2
+litgpt
+scikit-learn
+streamlit
+openai
+google-genai
+selenium
+bs4
+html2text
+jsonlines

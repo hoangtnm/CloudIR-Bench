@@ -1,0 +1,15 @@
+I want you to act as an expert software engineer. You will be given an incident report submitted on the {platform} portal.
+
+Your task is to determine whether the report explicitly includes **at least one** of the following:
+- A **clear root cause** that explains why the incident occurred (not just symptoms or contributing factors).
+- **Specific and detailed mitigation steps** describing what actions were taken to resolve or remediate the incident (not vague or generic statements).
+
+Respond with only one word:
+**Yes** — if either the root cause or detailed mitigation steps are present.
+**No** — if both are missing.
+
+Incident Report: """
+{text}
+"""
+
+Output:

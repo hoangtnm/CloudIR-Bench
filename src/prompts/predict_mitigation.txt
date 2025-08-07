@@ -1,0 +1,9 @@
+I want you to act as an expert software engineer. Your task is to figure out the mitigation of the following incident report from {platform}.
+- Your output must clearly state what the mitigation of the incident was.
+- Focus on the key actions taken, their intended effect.
+- Style: Brief, high-level.
+- Detail: States the mitigation steps clearly and concisely without specifying broader impact or technical depth.
+- Keep the output up to 100 tokens.
+Title: {title}
+Summary: {summary}
+Mitigation:

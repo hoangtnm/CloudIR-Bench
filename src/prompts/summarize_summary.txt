@@ -1,0 +1,9 @@
+I want you to act as an expert software engineer. Consider the following incident report was submitted on the {platform} portal.
+Incident Description: {description}
+Your task is to summarize this incident report. Focus on the following aspects of the incident:
+- The symptoms of the incident that lead to this incident report
+- References to external services or tools that contain relevant information.
+- Distinguishing features of the incident such as precise error codes, specifics from logs etc.
+- Context of the incident such as the name of the service, region, etc.
+Your summary should be at most 5-6 sentences and should be in third person. You must end your summary with <|endoftext|>.
+Concise Summary:

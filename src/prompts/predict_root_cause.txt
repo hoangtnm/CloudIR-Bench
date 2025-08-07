@@ -1,0 +1,9 @@
+I want you to act as an expert software engineer. Your task is to figure out the root cause of the following incident report from {platform}.
+- Your output must clearly state what the root cause of the incident was.
+- Style: Brief, high-level.
+- Detail: States the root cause clearly and concisely without specifying broader impact or technical depth.
+- Avoid the common phrase "The root cause of the incident was..." or similar phrases.
+- Keep the output up to 100 tokens.
+Title: {title}
+Summary: {summary}
+Root cause:
